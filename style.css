@@ -1,15 +1,31 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+body {
+  text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 table {
-    border-collapse: collapse;
-    margin: auto;
-  }
-  td {
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
+  border-collapse: collapse;
+  margin: auto; /* centralizando a tabela na tela */
+}
+td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
